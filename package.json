@@ -1,11 +1,25 @@
 {
-  "name": "amvaino",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "amvaino",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rd /s /q dist && webpack",
+        "dev": "webpack serve"
+    },
+    "author": "",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amvaino/css-loader.git"
+    },
+    "bugs": {
+        "url": "https://github.com/amvaino/css-loader/issues"
+    },
+    "homepage": "https://github.com/amvaino/css-loader#readme",
+    "devDependencies": {
+        "webpack": "^5.65.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.6.0"
+    }
 }
